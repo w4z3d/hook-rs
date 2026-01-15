@@ -1,5 +1,5 @@
 # hook-rs
-A function hooking library, written for csgo cheating applications (educational purpose ofc.)
+A educational function hooking library, written for source 1 games
 
 # Usage
 Here is a quick example of how to use this:
@@ -20,7 +20,7 @@ The interface is the version name of the interface, often found through reverse 
 the module is pretty self explanatory.
 The index is the index of where the function resides in the vtable of the interface.
 
-**Please note, that to gather the interfaces a deprecated method is being used (This means that this is detected)**
+**Please note, that to gather the interfaces a deprecated method is being used (This means that this is detected by valve anticheat)**
 Also this doesn't make use of syscalls etc. so every usermode function hook valve does will take effect here.
 
 The macro will generate code for retrieving the interface pointer as well as indexing the vtable.
